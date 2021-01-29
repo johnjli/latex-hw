@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[makeroom]{cancel}
+
+\setlength{\parskip}{1em}
+\setlength\parindent{0px}
+\title{Homework 1}
+\date{2021 January 26}
+\author{John J Li}
+
+\begin{document}
+    \pagenumbering{gobble}
+    \maketitle
+    \newpage
+    \pagenumbering{arabic}
+
+    \textbf{Problem 1:}
+
+    \quad \textbf{(a)} $((p\land q)\lor p) \land q$
+
+    \begin{gather*}
+        ((p\land q)\lor p) \land q \\
+        ((p \lor p) \land (q \lor p)) \lor p \\
+        (\cancel{(p \lor p)} \land (q \lor p)) \lor p \\
+        q\land q \lor p \land q \\
+        \cancel{q\land q} \lor p \land q \\
+        p \land q
+    \end{gather*}
+
+    \fbox{%
+        \parbox{\textwidth}{%
+            Not a tautology because $p\land q$ can be false.
+        }%
+    }
+
+    \quad\textbf{(b)} $p\rightarrow (p\lor q)$
+
+
+\end{document}
