@@ -37,5 +37,208 @@
 
     \quad\textbf{(b)} $p\rightarrow (p\lor q)$
 
+    \begin{gather*}
+        p\rightarrow (p\lor q) \\
+        \neg p \lor (p \lor q) \\
+        (\neg p \lor p) \lor (\neg p \lor q)
+    \end{gather*}
+
+    \fbox{%
+        \parbox{\textwidth}{%
+            This is a tautology because $\neg p \lor p$ is always true and so
+            $(\neg p \lor p) \lor (\neg p \lor q)$ is always true as well.
+        }%
+    }
+
+    \quad\textbf{(c)} $(\neg p \lor q) \rightarrow (p \rightarrow q)$
+
+    \begin{gather*}
+        \text{Let} \; A \equiv (p \rightarrow q) \\
+        (\neg p \lor q) \rightarrow (p \rightarrow q) \\
+        (p \rightarrow q) \rightarrow (p \rightarrow q) \\
+        A \rightarrow A
+    \end{gather*}
+
+    \fbox{%
+        \parbox{\textwidth}{%
+            This is a tautology because the statement is conditionally comparing the same things.
+        }%
+    }
+
+    \textbf{Problem 2:}
+
+    \quad \textbf{(a)} $x \in \mathbb{R}$ and if $x<5$, then $x=5$
+
+    \quad\quad$\boxed{\{x \in \mathbb{R}\;|\; x<5 \rightarrow x=5\} = \{x \geq 5\}}$
+
+    \quad \textbf{(b)} $z \in \mathbb{R}$ and $2 \in \{x \in \mathbb{R} \; | \; x \cdot z < 2\}$
+
+    \quad\quad$\boxed{\{ z \in \mathbb{R} \; | \; 2 \in \{x \in \mathbb{R} \; | \; x \cdot z < 2\}\} =\{z < 2 \}}$
+
+    \quad \textbf{(c)} $n \in \mathbb{Z}$ and $n \in \{2^i \; | \; i \in \mathbb{Z}^+\}$
+
+    \quad\quad$\boxed{\{0,1,2,3...\}}$
+
+    \textbf{Problem 3:}
+
+    \quad \textbf{(a)} $x \notin A \setminus (B\cup C)$
+
+    \begin{gather*}
+        x \notin A \setminus (B\cup C) \\
+        x \notin A \land \neg(x \notin B \lor x\notin C) \\
+        x \notin A \land x \in B \land x \in C
+    \end{gather*}
+
+    \quad\quad $\boxed{x \notin A \land x \in B \land x \in C}$
+
+    \quad \textbf{(a)} $x \in A \setminus (B\setminus C)$
+
+    \begin{gather*}
+        x \in A \setminus (B\setminus C) \\
+        x \in A \land \neg(x \in B \land \neg(x\in C)) \\
+        x \in A \land (x \notin B \lor x \in C)
+    \end{gather*}
+
+    \quad\quad $\boxed{x \in A \land (x \notin B \lor x \in C)}$
+
+    \textbf{Problem 4:}
+
+    \quad \textbf{(a)} $\emptyset \subseteq \{\emptyset\}$
+
+    \fbox{%
+        \parbox{\textwidth}{%
+            This statement is true.
+        }%
+    }
+
+    \quad \textbf{(b)} $(\{1,\emptyset\}\cap\{2,\emptyset\}) \subseteq \{1,2\}$
+
+    \fbox{%
+        \parbox{\textwidth}{%
+            This statement is false because $(\{1,\emptyset\}\cap\{2,\emptyset\}) \equiv \{\emptyset\}$
+            which is not a subset of $\{1,2\}$.
+        }%
+    }
+
+    \textbf{Problem 5:}
+
+    \quad \textbf{(a)} $A\setminus (B\cup C) = (A\setminus B) \cap (A \setminus C)$
+
+    \begin{gather*}
+        A\setminus (B\cup C) = (A\setminus B) \cap (A \setminus C) \\
+        A \land \neg (B \lor C) = (A \land \neg B) \land (A \land \neg C) \\
+        \boxed{A \land \neg B \land \neg B = A \land \neg B \land \neg B}
+    \end{gather*}
+
+    \quad \textbf{(b)} $(A\setminus B) \cup (B\setminus A) = (A \cup B) \setminus (A \cap B)$
+
+    \begin{gather*}
+        (A\setminus B) \cup (B\setminus A) = (A \cup B) \setminus (A \cap B) \\
+        (A \land \neg B) \lor (B \land \neg A) = (A \lor B) \land \neg(A \land B) \\
+        (A\lor B) \land (A \lor \neg A) \land (\neg B \lor B) \land (\neg B \lor \neg A) = (A \lor B) \land (\neg A \lor \neg B) \\
+        (A\lor B) \land \cancel{(A \lor \neg A)} \land \cancel{(\neg B \lor B)} \land (\neg B \lor \neg A) = (A \lor B) \land (\neg A \lor \neg B) \\
+        \boxed{(A \lor B) \land (\neg A \lor \neg B) = (A \lor B) \land (\neg A \lor \neg B)}
+    \end{gather*}
+
+    \textbf{Problem 6:}
+
+    \begin{gather*}
+        (p\rightarrow q) \land (\neg p \rightarrow q) \equiv p \leftrightarrow q \\
+        (\neg p \lor q) \land (p \lor \neg q) \equiv (p \rightarrow q) \land (q \rightarrow p) \\
+        \boxed{(\neg p \lor q) \land (\neg q \lor p) \equiv (\neg p \lor q) \land (\neg q \lor p)}
+    \end{gather*}
+
+    \textbf{Problem 7:}
+
+    \quad \textbf{(a)} If $x+y < 2$ and $y+z = 2$, then $x^2 + y^2 + z^2 = 2$ or $x^2 \geq y^2$.
+
+    \quad\quad Converse:
+
+    \fbox{%
+        \parbox{\textwidth}{%
+            If $x^2 + y^2 + z^2 = 2$ or $x^2 \geq y^2$, then $x+y < 2$ and $y+z = 2$.
+        }%
+    }
+
+    \quad\quad Contrapositive:
+
+    \fbox{%
+        \parbox{\textwidth}{%
+        If $x+y \leq 2$ or $y+z \neq 2$, then $x^2 + y^2 + z^2 \neq 2$ and $x^2 < y^2$
+        }%
+    }
+
+    \quad \textbf{(b)} If two integers $x,y$ are both even, then at least one of $x^2 + y,\; y^2 +x$
+    is even.
+
+    \quad\quad Converse:
+
+    \fbox{%
+        \parbox{\textwidth}{%
+            If at least one of $x^2 + y,\; y^2 +x$ is true, then the two integers $x,y$ are both even.
+        }%
+    }
+
+    \quad\quad Contrapositive:
+
+    \fbox{%
+        \parbox{\textwidth}{%
+            If two integers $x,y$ are both odd, then both $x^2 + y,\; y^2 +x$
+            are odd.
+        }%
+    }
+
+    \textbf{Problem 8:}
+
+    \quad \textbf{(a)} $P(x) : x < 2 \rightarrow x > 2$
+
+    \quad\quad $\boxed{3}$
+    
+    \quad \textbf{(b)} $P(x) : x \in \mathbb{Z}^+ \rightarrow x = 0$
+
+    \quad\quad $\boxed{-1}$
+
+    \quad \textbf{(c)} $P(x) : (x^2 +1 = x) \rightleftarrows x < 2$
+
+    \quad\quad $\boxed{-1}$
+
+    \textbf{Problem 9:}
+
+    \quad \textbf{(a)} X says "Both of us are knaves".
+
+    \fbox{%
+        \parbox{\textwidth}{%
+            X is a knave while Y is a knight. This is because this statement is always false -- knaves cannot tell the truth so
+            we know X and Y are not both knaves. Therefore, X and Y could both be knights but since
+            we know X is lying, we can conclude that Y is a knight.
+        }%
+    }
+    
+    \quad \textbf{(b)} Y says "Either I am a knave or X is a knight"
+
+    \fbox{%
+        \parbox{\textwidth}{%
+            X and Y can be both knights or Y is a knave and X is a knight.
+        }%
+    }
+
+    \quad \textbf{(c)} X says "I am a knave but Y isn't"
+
+    \fbox{%
+        \parbox{\textwidth}{%
+            This statement is always false; we can automatically conclude that y is also a knave.
+            So both X and Y are knaves -- since knights can't say they are knaves.
+        }%
+    }
+
+    \textbf{Problem 10:}
+
+    \fbox{%
+        \parbox{\textwidth}{%
+            The number of words we use to define the smallest positive integer which cannot
+            be described in fewer than sixteen words is 16. 16 is a subset of A since we
+            can described 16 in fewer than sixteen words.
+        }%
+    }
 
 \end{document}

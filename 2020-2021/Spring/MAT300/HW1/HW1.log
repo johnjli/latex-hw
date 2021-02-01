@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  29 JAN 2021 14:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  29 JAN 2021 19:08
 entering extended mode
 **d:/school/_latex-hw/2020-2021/Spring/MAT300/HW1/HW1.tex
 (d:/school/_latex-hw/2020-2021/Spring/MAT300/HW1/HW1.tex
@@ -123,19 +123,79 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 36--37
 [][] 
  []
 
-[1] (d:/school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.aux) ) 
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 51--52
+[][] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 66--67
+[][] 
+ []
+
+[1]
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 112--113
+[][] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 121--122
+[][] 
+ []
+
+[2]
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 161--162
+[][] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 169--170
+[][] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 180--181
+[][] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 189--190
+[][] 
+ []
+
+[3]
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 215--216
+[][] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 223--224
+[][] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 232--233
+[][] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 242--243
+[][] 
+ []
+
+[4] (d:/school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.aux) ) 
 Here is how much of TeX's memory you used:
  1622 strings out of 479618
  21959 string characters out of 2864038
- 293361 words of memory out of 3000000
+ 302361 words of memory out of 3000000
  18821 multiletter control sequences out of 15000+200000
  410381 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,18n,74p,267b,211s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on d:/school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.pdf (2 pages, 64718 bytes).
+<C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on d:/school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.pdf (5 pages, 112580 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
