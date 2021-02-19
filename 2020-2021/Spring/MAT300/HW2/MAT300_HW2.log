@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  29 JAN 2021 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  11 FEB 2021 23:55
 entering extended mode
-**d:/school/_latex-hw/2020-2021/Spring/MAT300/HW1/HW1.tex
-(d:/school/_latex-hw/2020-2021/Spring/MAT300/HW1/HW1.tex
+**d:/School/_latex-hw/2020-2021/Spring/MAT300/HW2/MAT300_HW2.tex
+(d:/School/_latex-hw/2020-2021/Spring/MAT300/HW2/MAT300_HW2.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03> ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls"
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -92,8 +92,8 @@ Package: cancel 2013/04/12 v2.2 Cancel math terms
 File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count197
 \l__pdf_internal_box=\box49
-) (d:/school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.aux)
-\openout1 = `HW1.aux'.
+) (d:/School\_latex-hw\2020-2021\Spring\MAT300\HW2\MAT300_HW2.aux)
+\openout1 = `MAT300_HW2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
@@ -118,84 +118,19 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/John Li/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 36--37
-[][] 
- []
-
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 51--52
-[][] 
- []
-
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 66--67
-[][] 
- []
-
-[1]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 112--113
-[][] 
- []
-
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 121--122
-[][] 
- []
-
-[2]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 161--162
-[][] 
- []
-
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 169--170
-[][] 
- []
-
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 180--181
-[][] 
- []
-
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 189--190
-[][] 
- []
-
-[3]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 215--216
-[][] 
- []
-
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 223--224
-[][] 
- []
-
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 232--233
-[][] 
- []
-
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 242--243
-[][] 
- []
-
-[4] (d:/school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.aux) ) 
+{C:/Users/John Li/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [1] [2] [3] (d:/School\_latex-hw\2020-2021\Spring\MAT300\HW2\MAT300_HW2.aux) ) 
 Here is how much of TeX's memory you used:
  1622 strings out of 479618
- 21959 string characters out of 2864038
- 302361 words of memory out of 3000000
+ 22036 string characters out of 2864038
+ 298361 words of memory out of 3000000
  18821 multiletter control sequences out of 15000+200000
  410381 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,18n,74p,267b,211s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on d:/school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.pdf (5 pages, 112580 bytes).
+ 67i,6n,74p,274b,211s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on d:/School\_latex-hw\2020-2021\Spring\MAT300\HW2\MAT300_HW2.pdf (4 pages, 109291 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

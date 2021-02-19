@@ -1,7 +1,7 @@
-PWD d:\school\_latex-hw\2020-2021\Spring\MAT300\HW1
+PWD d:\School\_latex-hw\2020-2021\Spring\MAT300\HW1
 INPUT C:\Users\John Li\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.tex
-OUTPUT d:\school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.log
+INPUT d:\School\_latex-hw\2020-2021\Spring\MAT300\HW1\MAT300_HW1.tex
+OUTPUT d:\School\_latex-hw\2020-2021\Spring\MAT300\HW1\MAT300_HW1.log
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -131,10 +131,10 @@ INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backe
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT d:\school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.aux
-INPUT d:\school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.aux
-INPUT d:\school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.aux
-OUTPUT d:\school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.aux
+INPUT d:\School\_latex-hw\2020-2021\Spring\MAT300\HW1\MAT300_HW1.aux
+INPUT d:\School\_latex-hw\2020-2021\Spring\MAT300\HW1\MAT300_HW1.aux
+INPUT d:\School\_latex-hw\2020-2021\Spring\MAT300\HW1\MAT300_HW1.aux
+OUTPUT d:\School\_latex-hw\2020-2021\Spring\MAT300\HW1\MAT300_HW1.aux
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
@@ -162,7 +162,7 @@ INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-OUTPUT d:\school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.pdf
+OUTPUT d:\School\_latex-hw\2020-2021\Spring\MAT300\HW1\MAT300_HW1.pdf
 INPUT C:\Users\John Li\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
@@ -173,7 +173,7 @@ INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\s
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT d:\school\_latex-hw\2020-2021\Spring\MAT300\HW1\HW1.aux
+INPUT d:\School\_latex-hw\2020-2021\Spring\MAT300\HW1\MAT300_HW1.aux
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\John Li\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb

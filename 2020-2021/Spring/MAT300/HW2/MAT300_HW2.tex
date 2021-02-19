@@ -1,0 +1,207 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[makeroom]{cancel}
+
+\setlength{\parskip}{1em}
+\setlength\parindent{0px}
+\title{Homework 2}
+\date{\today}
+\author{John J Li}
+
+\begin{document}
+    \pagenumbering{gobble}
+    \maketitle
+    \newpage
+    \pagenumbering{arabic}
+
+    %###################################################################################
+
+    \textbf{Problem 1:}
+
+    \quad \textbf{(a)} $(\forall_x \, x < 2) \rightarrow (\exists_x x > 2)$
+
+    \fbox{%
+        \parbox{0.95\textwidth}{%
+            The truth value for this statement is false since x can be a value less than 2.
+        }%
+    }
+
+    \quad \textbf{(b)} $(\forall_x \, x < 0) \longleftrightarrow (\exists_x x^2 + 2 < 0)$
+
+    \fbox{%
+        \parbox{0.95\textwidth}{%
+            The truth value for this statement is false because there doesn't exist an x where
+            $\exists_x x^2 + 2 < 0$ would be true. Thus making $(\forall_x \, x < 0) \rightarrow (\exists_x x^2 + 2 < 0)
+            \land (\exists_x x^2 + 2 < 0) \rightarrow (\forall_x \, x < 0)$ false.
+        }%
+    }
+
+    \quad \textbf{(c)} $\forall_x (x < 0 \rightarrow x^2 = 1)$
+
+    \fbox{%
+        \parbox{0.95\textwidth}{%
+            The truth value for this statement is false since x can be any value less than 0
+            and where $x^2 \neq 1$ such as $x = -2$
+        }%
+    }
+
+    \quad \textbf{(d)} $\exists_x (x < 0 \rightarrow x^2 = 1)$
+
+    \fbox{%
+        \parbox{0.95\textwidth}{%
+            The truth value for this statement is true since $x = -1$ would make this statement
+            true.
+        }%
+    }
+
+    %###################################################################################
+
+    \textbf{Problem 2:}
+
+    \quad \textbf{(a)} $\forall_x\exists_y \, x + y = 5$
+
+    \fbox{%
+        \parbox{0.95\textwidth}{%
+            The truth value for this statement is true. Consider $y_x = 5-x$, thus $y\in \mathbb{Z}$
+            and $x+y_x = x + 5 - x = 5$.
+        }%
+    }
+
+    \quad \textbf{(b)} $\exists_x\forall_y \, x + y = 5$
+
+    \fbox{%
+        \parbox{0.95\textwidth}{%
+            The truth value for this statement is false because for a certain x, not all y
+            would make $x+y=5$ true. Consider $y_x = 6 - x$, then $y_x \in \mathbb{Z}$ 
+            and $x + y_x = 6 \neq 5$.
+        }%
+    }
+
+    \quad \textbf{(c)} $\forall_x\exists_y \, (x + y = 5 \rightarrow x^2 + y^3 > 7)$
+
+    \fbox{%
+        \parbox{0.95\textwidth}{%
+            The truth value for this statement is true because the only way to make this
+            statement false is to make $x^2 + y^3 > 7$ false and $x+y=5$ true. But
+            any values that would make $x^2 + y^3 > 7$ false would make $x+y=5$ false thus 
+            making the conditional true.
+        }%
+    }
+
+    \quad \textbf{(d)} $\exists_x\forall_y \, ( x + y = 5 \rightarrow xy \geq 0)$
+
+    \fbox{%
+        \parbox{0.95\textwidth}{%
+            The truth value for this statement is false. Consider $y = 5-x$, then $y \in \mathbb{Z}$
+            and $x+y = x+ 5 - x=5$ and $xy = 5x - x^2 \geq 0$ which is false for $x > 5$. Thus this
+            conditional can be false for some value of x and all values of y.
+        }%
+    }
+
+    %###################################################################################
+
+    \textbf{Problem 3:}
+
+    See above.
+
+    %###################################################################################
+
+    \textbf{Problem 4:}
+
+    \quad \textbf{(a)} 
+
+    $\boxed{\forall_x \, \exists_y (|x-y| < 1)}$
+
+    \quad \textbf{(b)} 
+
+    \quad \textbf{(c)} 
+
+    \quad \textbf{(d)}
+
+    $\boxed{(x > 1) \land \neg\,\exists_y\,\exists_z\,(x = yz \land y < x \land z < x)}$
+
+    %###################################################################################
+
+    \textbf{Problem 5:}
+
+    \quad \textbf{(a)} 
+
+    $\boxed{\exists_{x\in\mathbb{Z}}\,\forall_{y\in\mathbb{Z}}\,(x^2 \geq y)}$
+
+    \quad \textbf{(b)} 
+
+    $\boxed{\exists_{x\in\mathbb{Z}}\,\forall_{y\in\mathbb{Z}}\,(x < y \land xy\geq 1)}$
+
+    \quad \textbf{(c)} 
+
+    $\boxed{\forall_{x\in\mathbb{R}}\,\exists_{v\in\mathbb{Z}}((x+v=1\land v\leq x) \lor (x+v\neq 1 \land v > x))}$
+
+    %###################################################################################
+
+    \textbf{Problem 6:}
+
+    \fbox{%
+        \parbox{0.95\textwidth}{%
+        The statement $\exists_x\,P(x)$ says there exists at least one value of x for which
+        $P(x)$ is true. Thus the negation of $\exists_x\,P(x)$ says there doesn't exists a value
+        of x for which $P(x)$ is true. Which can be also stated as for all values of x, $P(x)$ is false.
+        Which is the same as $\forall_x\,(\neg P(x))$. Thus $\neg\exists_x\,P(x)\equiv\forall_x\,(\neg P(x))$.
+        }%
+    }
+
+    %###################################################################################
+
+    \textbf{Problem 7:}
+
+    \fbox{%
+        \parbox{0.95\textwidth}{%
+            The statement $\exists_x\,(P(x)\rightarrow Q(x))$ says there exists at least
+            one value of x such that $P(x)$ implies $Q(x)$. This statement is further defined
+            as, there exists at least one value of x such that either $P(x)$ is false or 
+            $Q(x)$ is true. Since the conditional is defined as an or statement, the statement
+            could be phrased so that it only relies on $Q(x)$ to make the conditional true. Thus
+            $\exists_x\,(P(x)\rightarrow Q(x)) \equiv \forall_x\,P(x) \rightarrow \exists_x\,Q(x)$.
+        }%
+    }
+
+    %###################################################################################
+
+    \textbf{Problem 8:}
+
+    \fbox{%
+        \parbox{0.95\textwidth}{%
+            The statement $\exists !xP(x)$ says there exists a unique x such that P(x) is true.
+            This statement could be restated as there exists a x and no other
+            x exists such that $P(x)$ is true. 
+
+            This can be written as $\exists_x\,P(x) \land$ (no other x exists such that $P(x)$ is true).
+            Taking the negation of the right hand side would give the statement,
+            $\neg$(other x exists such that $P(x)$ is true). Other x can be replaced with y where x $\neq$ y.
+
+            This leaves us with $\exists_x\, P(x) \land \neg$ (y exists such that $P(y)$ and $x \neq y$).
+            This can be further defined using quantifiers.
+
+            $\exists_x\,P(x) \land \neg (\exists_y\,P(y)\land x \neq y) \\
+            \exists_x\,P(x) \land (\forall_y\,\neg P(y)\lor x = y)
+            $
+
+            We can apply that same process to $\exists !xQ(x)$. Leaving us with:
+
+            $(\exists_x\,P(x) \land (\forall_y\,\neg P(y)\lor x = y)) \rightarrow 
+            (\exists_x\,Q(x) \land (\forall_y\,\neg Q(y)\lor x = y))$
+        }%
+    }
+
+    % %###################################################################################
+
+    % \textbf{Problem 9:}
+
+
+
+    % %###################################################################################
+
+    % \textbf{Problem 10:}
+
+\end{document}
