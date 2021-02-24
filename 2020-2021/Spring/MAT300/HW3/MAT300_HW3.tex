@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[makeroom]{cancel}
+
+\setlength{\parskip}{1em}
+\setlength\parindent{0px}
+\title{Homework 3}
+\date{\today}
+\author{John J Li}
+
+\begin{document}
+    \pagenumbering{gobble}
+    \maketitle
+    \newpage
+    \pagenumbering{arabic}
+
+    %###################################################################################
+
+    \textbf{Problem 1:}
+
+    \begin{proof}
+        Suppose $0<a<b$. 
+        Then multiplying the inequality $a<b$ by the positive number $a$ can
+        conclude that $a^2<ab$; similarly, multiplying the inequality $a<b$ by the positive
+        number $b$ can conclude that $ab<b^2$. 
+        Thus $a^2<ab<b^2$. Then by multiplying the
+        new inequality $a^2<ab<b^2$ by the positive number $a$, we can conclude $a^3<a^2b<ab^2$;
+        furthermore, by multiplying the
+        new inequality $a^2<ab<b^2$ by the positive number $b$, we can conclude $a^2b<ab^2<b^3$.
+        So $a^3<a^2b<ab^2<b^3$, thus if $0<a<b$ then $a^3<b^3$.
+    \end{proof}
+
+    %###################################################################################
+
+    \textbf{Problem 2:}
+
+    \begin{proof}
+        We will prove the contrapositive.
+        Suppose if $x=9$ then $x^3-\sqrt{x}\neq 3x^2+sin(x)$. Then $(9)^3-\sqrt{9}\neq 3(9)^2+sin(9)$
+        and $726 \neq 243.412$. Therefore if $x^3-\sqrt{x}= 3x^2+sin(x)$ then
+        $x\neq 9$.
+    \end{proof}
+
+    %###################################################################################
+
+    \textbf{Problem 3:}
+
+    \begin{proof}
+        We will prove the contrapositive.
+        Suppose n is not even. Then $n = 2k + 1$ where $k \in \mathbb{Z}$.
+        Then $3(2k+1)^3 + 6$ and $24k^3 + 36k^2 + 18k^2 + 9$ which can be written as
+        $2(12k^3 + 13k^2 + 12k + 4) + 1$ which is not even. Therefore if $3(n)^3 + 6$ then
+        $n$ is not even.
+    \end{proof}
+
+    %###################################################################################
+
+    \textbf{Problem 4:}
+
+    \begin{proof}
+        Let $x$ be arbitary. Suppose $A$ and $B\setminus C$ are disjoint. This means $\forall_x (x \in A \land \neg(x\in B \land x \notin C))$
+        and so $\forall_x (x \in A \land x \in B \rightarrow x \in C)$ and this is 
+        the logic form of $A\cap B \subseteq C$ since x is arbitary. Therefore if $A$ and $B\setminus C$ are disjoint
+        then $A\cap B \subseteq C$.
+    \end{proof}
+
+    %###################################################################################
+
+    
+
+\end{document}

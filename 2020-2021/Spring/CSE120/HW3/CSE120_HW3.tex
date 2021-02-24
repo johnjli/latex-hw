@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[makeroom]{cancel}
+\usepackage{tabularx}
+\usepackage{graphicx}
+
+\setlength{\parskip}{1em}
+\setlength\parindent{0px}
+\title{Homework 3}
+\date{\today}
+\author{John J Li}
+
+\begin{document}
+    \pagenumbering{gobble}
+    \maketitle
+    \newpage
+    \pagenumbering{arabic}
+
+    %###################################################################################
+
+    \textbf{Problem 1:}
+
+    \begin{center}
+        \begin{tabular} {cccc|c}
+            w & x & y & z & G \\
+            \hline
+            0 & 0 & 0 & 0 & 1 \\
+            0 & 0 & 0 & 1 & 0 \\
+            0 & 0 & 1 & 0 & 1 \\
+            0 & 0 & 1 & 1 & 0 \\
+            0 & 1 & 0 & 0 & 1 \\
+            0 & 1 & 0 & 1 & 0 \\
+            0 & 1 & 1 & 0 & 1 \\
+            0 & 1 & 1 & 1 & 0 \\
+            1 & 0 & 0 & 0 & 1 \\
+            1 & 0 & 0 & 1 & 1 \\
+            1 & 0 & 1 & 0 & 1 \\
+            1 & 0 & 1 & 1 & 1 \\
+            1 & 1 & 0 & 0 & 1 \\
+            1 & 1 & 0 & 1 & 1 \\
+            1 & 1 & 1 & 0 & 1 \\
+            1 & 1 & 1 & 1 & 1 \\
+        \end{tabular}
+    \end{center}
+
+    \begin{center}
+        \begin{tabular} {cc|cccc}
+            & yz & &&& \\
+            wx && 00 & 01 & 11 & 10 \\
+            \hline
+            & 00 & 1 & 0 & 0 & 1 \\
+            & 01 & 1 & 0 & 0 & 1 \\
+            & 11 & 1 & 1 & 1 & 1 \\
+            & 10 & 1 & 1 & 1 & 1 \\
+        \end{tabular}
+    \end{center}
+
+\end{document}
