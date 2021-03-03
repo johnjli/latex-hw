@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[makeroom]{cancel}
+\usepackage{tabularx}
+\usepackage{graphicx}
+
+\setlength{\parskip}{1em}
+\setlength\parindent{0px}
+\title{Quiz 2 Correction}
+\date{\today}
+\author{John J Li}
+
+\begin{document}
+    \pagenumbering{gobble}
+    \maketitle
+    \newpage
+    \pagenumbering{arabic}
+
+    %###################################################################################
+
+    \textbf{Question 5:}
+
+    Given the following equation, what are the values contained in the numeric sum-of-products
+    shorthand equivalent?
+
+    $E(x,y,z) = (x+y)' + (x\oplus z)y$ is equivalent to $E(x,y,z) = \sum m(?)$
+
+    \begin{center}
+        \begin{tabular} {ccc|c|c|c} 
+            x & y & z & (x+y)' & (x$\oplus$z)y & E(x,y,z) \\
+            \hline
+            0 & 0 & 0 & 1 & 0 & 1 \\
+            0 & 0 & 1 & 1 & 0 & 1 \\
+            0 & 1 & 0 & 0 & 0 & 0 \\
+            0 & 1 & 1 & 0 & 1 & 1 \\
+            1 & 0 & 0 & 0 & 0 & 0 \\
+            1 & 0 & 1 & 0 & 0 & 0 \\
+            1 & 1 & 0 & 0 & 1 & 1 \\
+            1 & 1 & 1 & 0 & 0 & 0 \\
+        \end{tabular}
+    \end{center}
+
+    Correct answer: 0, 1, 3, 6
+
+    \textbf{Reason why I answered incorrectly on the quiz:}
+
+    I thought the XOR was true only when both inputs are the same. Obviously that was wrong
+    and now I know XOR is true only when both inputs do not equal each other.
+
+\end{document}

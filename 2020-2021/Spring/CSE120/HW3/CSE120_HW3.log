@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  23 FEB 2021 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  27 FEB 2021 23:49
 entering extended mode
 **d:/School/_latex-hw/2020-2021/Spring/CSE120/HW3/CSE120_HW3.tex
 (d:/School/_latex-hw/2020-2021/Spring/CSE120/HW3/CSE120_HW3.tex
@@ -107,11 +107,33 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \TX@delta=\dimen154
 \TX@cols=\count197
 \TX@ftn=\toks23
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/arydshln\arydshln.sty"
+Package: arydshln 2019/02/21 v1.76 
+\dashlinedash=\dimen155
+\dashlinegap=\dimen156
+\adl@box=\box51
+\adl@height=\dimen157
+\adl@heightsave=\dimen158
+\adl@depth=\dimen159
+\adl@depthsave=\dimen160
+\adl@finaldepth=\dimen161
+\adl@columns=\count198
+\adl@ncol=\count199
+\adl@currentcolumn=\count266
+\adl@currentcolumnsave=\count267
+\adl@totalheight=\count268
+\adl@totalheightsave=\count269
+\adl@dash=\count270
+\adl@gap=\count271
+\adl@cla=\count272
+\adl@clb=\count273
+\adl@everyvbox=\toks24
+\adl@LTpagetotal=\dimen162
 ) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
  ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
+\KV@toks@=\toks25
 ) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty"
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
  ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty"
@@ -123,68 +145,122 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
  ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def"
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen155
-\Gin@req@width=\dimen156
+\Gin@req@height=\dimen163
+\Gin@req@width=\dimen164
 ) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
 File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count198
-\l__pdf_internal_box=\box51
+\l__kernel_color_stack_int=\count274
+\l__pdf_internal_box=\box52
 ) (d:/School\_latex-hw\2020-2021\Spring\CSE120\HW3\CSE120_HW3.aux)
 \openout1 = `CSE120_HW3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
  ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count199
-\scratchdimen=\dimen157
-\scratchbox=\box52
-\nofMPsegments=\count266
-\nofMParguments=\count267
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count268
-\MPscratchDim=\dimen158
-\MPnumerator=\count269
-\makeMPintoPDFobject=\count270
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count275
+\scratchdimen=\dimen165
+\scratchbox=\box53
+\nofMPsegments=\count276
+\nofMParguments=\count277
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count278
+\MPscratchDim=\dimen166
+\MPnumerator=\count279
+\makeMPintoPDFobject=\count280
+\everyMPtoPDFconversion=\toks27
 ) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
  ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
  ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/John Li/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [1] (d:/School\_latex-hw\2020-2021\Spring\CSE120\HW3\CSE120_HW3.aux) ) 
+{C:/Users/John Li/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [1]
+<HW3_q2.png, id=14, 404.4711pt x 225.7233pt>
+File: HW3_q2.png Graphic file (type png)
+<use HW3_q2.png>
+Package pdftex.def Info: HW3_q2.png  used on input line 154.
+(pdftex.def)             Requested size: 345.0pt x 192.53387pt.
+ [2] [3 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW3/HW3_q2.png>] [4]
+Overfull \hbox (3.03369pt too wide) in paragraph at lines 293--319
+ [] 
+ []
+
+[5]
+<HW3_q6.png, id=30, 348.1005pt x 287.75505pt>
+File: HW3_q6.png Graphic file (type png)
+<use HW3_q6.png>
+Package pdftex.def Info: HW3_q6.png  used on input line 439.
+(pdftex.def)             Requested size: 345.0pt x 285.19452pt.
+ [6] [7 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW3/HW3_q6.png>]
+<HW3_q7.jpg, id=39, 387.4475pt x 961.5925pt>
+File: HW3_q7.jpg Graphic file (type jpg)
+<use HW3_q7.jpg>
+Package pdftex.def Info: HW3_q7.jpg  used on input line 493.
+(pdftex.def)             Requested size: 193.72327pt x 480.79507pt.
+<HW3_q7.2.png, id=40, 282.93706pt x 472.04355pt>
+File: HW3_q7.2.png Graphic file (type png)
+<use HW3_q7.2.png>
+Package pdftex.def Info: HW3_q7.2.png  used on input line 499.
+(pdftex.def)             Requested size: 345.0pt x 575.64738pt.
+ [8 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW3/HW3_q7.jpg>]
+Overfull \vbox (25.64738pt too high) has occurred while \output is active []
+
+ [9 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW3/HW3_q7.2.png>]
+<HW3_q7.3.png, id=48, 415.7934pt x 307.99065pt>
+File: HW3_q7.3.png Graphic file (type png)
+<use HW3_q7.3.png>
+Package pdftex.def Info: HW3_q7.3.png  used on input line 505.
+(pdftex.def)             Requested size: 345.0pt x 255.55696pt.
+<HW3_q8.jpg, id=49, 1927.2pt x 1084.05pt>
+File: HW3_q8.jpg Graphic file (type jpg)
+<use HW3_q8.jpg>
+Package pdftex.def Info: HW3_q8.jpg  used on input line 536.
+(pdftex.def)             Requested size: 345.0pt x 194.06194pt.
+ [10 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW3/HW3_q7.3.png>]
+<HW3_q9.jpg, id=54, 710.655pt x 973.6375pt>
+File: HW3_q9.jpg Graphic file (type jpg)
+<use HW3_q9.jpg>
+Package pdftex.def Info: HW3_q9.jpg  used on input line 587.
+(pdftex.def)             Requested size: 199.16928pt x 272.8692pt.
+ [11 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW3/HW3_q8.jpg>] [12 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW3/HW3_q9.jpg>]
+<HW3_q9.1.jpg, id=62, 1847.90375pt x 662.475pt>
+File: HW3_q9.1.jpg Graphic file (type jpg)
+<use HW3_q9.1.jpg>
+Package pdftex.def Info: HW3_q9.1.jpg  used on input line 657.
+(pdftex.def)             Requested size: 345.0pt x 123.678pt.
+ [13 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW3/HW3_q9.1.jpg>] (d:/School\_latex-hw\2020-2021\Spring\CSE120\HW3\CSE120_HW3.aux) ) 
 Here is how much of TeX's memory you used:
- 2499 strings out of 479618
- 34375 string characters out of 2864038
- 313898 words of memory out of 3000000
- 19661 multiletter control sequences out of 15000+200000
+ 2762 strings out of 479618
+ 37994 string characters out of 2864038
+ 333732 words of memory out of 3000000
+ 19910 multiletter control sequences out of 15000+200000
  410381 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,6n,74p,274b,213s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on d:/School\_latex-hw\2020-2021\Spring\CSE120\HW3\CSE120_HW3.pdf (2 pages, 43661 bytes).
+ 68i,9n,74p,274b,213s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on d:/School\_latex-hw\2020-2021\Spring\CSE120\HW3\CSE120_HW3.pdf (14 pages, 5636331 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
