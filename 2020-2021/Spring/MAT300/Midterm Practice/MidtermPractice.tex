@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\setlength{\parskip}{1em}
+\setlength\parindent{0px}
+\title{Homework 4}
+\date{\today}
+\author{John J Li}
+
+\begin{document}
+    \pagenumbering{gobble}
+    \maketitle
+    \newpage
+    \pagenumbering{arabic}
+
+
+    %###################################################################################
+
+    \textbf{Problem 5:}
+
+    Prove that for every real number $x$, if $x\neq 5$, then there is an unique real number $y$ such that
+    $5y=x(y-2)$.
+
+    \begin{proof}
+        Let $x$ be an arbitrary real number, an suppose $x\neq 5$. Let $y=\frac{2x}{x-5}$, 
+        which is defined since $x\neq 5$. By solving for $x$, it is seen that
+        $x=\frac{5y}{y-2}$ then 
+        \[\frac{5y}{y-2}=\frac{\frac{10x}{x-5}}{\frac{2x}{x-5}-2}=\frac{\frac{10x}{x-5}}{\frac{10}{x-5}}=\frac{10x}{10}=x\]
+        To see that this solution is unique, suppose $\frac{5z}{z-2}=x$. Then $5z=x(z-2)$, so $z(5-x)=-2x$ which is also
+        $z=\frac{2x}{x-5}=y$.
+    \end{proof}
+
+    %###################################################################################
+
+    \textbf{Problem 6:}
+
+    Let $\mathcal{F}$ and $\mathcal{G}$ be families of sets. Show that if $\mathcal{F}\cap\mathcal{G}\neq\emptyset$,
+    then $\mathcal{P}(\bigcap\mathcal{F})\subseteq\mathcal{P}(\bigcup\mathcal{G})$.
+
+    \begin{proof}
+        
+    \end{proof}
+
+    %###################################################################################
+
+    \textbf{Problem 7:}
+
+    Prove that $\lim_{x\rightarrow 2}\frac{3x^2-12}{x-2}=12$
+
+    \begin{proof}
+        Let $\epsilon > 0$. Consider $\delta = \frac{\epsilon}{3}$. Then for every x,
+        if $0<|x-2|<\delta$ then 
+        $|f(x)-12|=|\frac{3x^2-12}{x-2}-12|=|3x+6-12|=3|x-2|<3\delta=3\cdot\frac{\epsilon}{3}=\epsilon$.
+    \end{proof}
+
+    
+
+    
+
+\end{document}

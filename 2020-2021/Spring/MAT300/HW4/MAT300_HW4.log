@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  3 MAR 2021 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  3 MAR 2021 22:45
 entering extended mode
 **d:/School/_latex-hw/2020-2021/Spring/MAT300/HW4/MAT300_HW4.tex
 (d:/School/_latex-hw/2020-2021/Spring/MAT300/HW4/MAT300_HW4.tex
@@ -129,19 +129,19 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/John Li/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [1] [2] (d:/School\_latex-hw\2020-2021\Spring\MAT300\HW4\MAT300_HW4.aux) ) 
+{C:/Users/John Li/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [1] [2] [3] [4] (d:/School\_latex-hw\2020-2021\Spring\MAT300\HW4\MAT300_HW4.aux) ) 
 Here is how much of TeX's memory you used:
- 1696 strings out of 479618
- 23002 string characters out of 2864038
- 297459 words of memory out of 3000000
- 18890 multiletter control sequences out of 15000+200000
- 410727 words of font info for 56 fonts, out of 3000000 for 9000
+ 1699 strings out of 479618
+ 23038 string characters out of 2864038
+ 303459 words of memory out of 3000000
+ 18892 multiletter control sequences out of 15000+200000
+ 411062 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,6n,74p,274b,211s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on d:/School\_latex-hw\2020-2021\Spring\MAT300\HW4\MAT300_HW4.pdf (3 pages, 106401 bytes).
+ 67i,8n,74p,274b,211s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\John Li\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on d:/School\_latex-hw\2020-2021\Spring\MAT300\HW4\MAT300_HW4.pdf (5 pages, 136629 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
