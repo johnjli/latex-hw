@@ -1,0 +1,421 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  18 MAR 2021 21:13
+entering extended mode
+**d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/CSE120_HW4.tex
+(d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/CSE120_HW4.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03> ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo"
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg")) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen147
+)) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen148
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count188
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count189
+\leftroot@=\count190
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count191
+\DOTSCASE@=\count192
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count193
+\c@MaxMatrixCols=\count194
+\dotsspace@=\muskip16
+\c@parentequation=\count195
+\dspbrk@lvl=\count196
+\tag@help=\toks20
+\row@=\count197
+\column@=\count198
+\maxfields@=\count199
+\andhelp@=\toks21
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks22
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\tabularx.sty"
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.sty"
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen156
+\ar@mcellbox=\box49
+\extrarowheight=\dimen157
+\NC@list=\toks24
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box50
+)
+\TX@col@width=\dimen158
+\TX@old@table=\dimen159
+\TX@old@col=\dimen160
+\TX@target=\dimen161
+\TX@delta=\dimen162
+\TX@cols=\count266
+\TX@ftn=\toks25
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty"
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/arydshln\arydshln.sty"
+Package: arydshln 2019/02/21 v1.76 
+\dashlinedash=\dimen163
+\dashlinegap=\dimen164
+\adl@box=\box51
+\adl@height=\dimen165
+\adl@heightsave=\dimen166
+\adl@depth=\dimen167
+\adl@depthsave=\dimen168
+\adl@finaldepth=\dimen169
+\adl@columns=\count267
+\adl@ncol=\count268
+\adl@currentcolumn=\count269
+\adl@currentcolumnsave=\count270
+\adl@totalheight=\count271
+\adl@totalheightsave=\count272
+\adl@dash=\count273
+\adl@gap=\count274
+\adl@cla=\count275
+\adl@clb=\count276
+\adl@everyvbox=\toks26
+\adl@LTpagetotal=\dimen170
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty"
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip63
+\enit@outerparindent=\dimen173
+\enit@toks=\toks27
+\enit@inbox=\box52
+\enit@count@id=\count277
+\enitdp@description=\count278
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
+File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count279
+\l__pdf_internal_box=\box53
+) (d:/School\_latex-hw\2020-2021\Spring\CSE120\HW4\CSE120_HW4.aux)
+\openout1 = `CSE120_HW4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
+* v-part:(T,H,B)=(106.75473pt, 578.15999pt, 160.13213pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=433.62pt
+* \textheight=578.15999pt
+* \oddsidemargin=9.67395pt
+* \evensidemargin=9.67395pt
+* \topmargin=-2.51526pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count280
+\scratchdimen=\dimen174
+\scratchbox=\box54
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen175
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks29
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<Problem_1.png, id=1, 554.07pt x 214.8025pt>
+File: Problem_1.png Graphic file (type png)
+<use Problem_1.png>
+Package pdftex.def Info: Problem_1.png  used on input line 43.
+(pdftex.def)             Requested size: 433.62pt x 168.10574pt.
+<Problem_2.jpg, id=2, 197.73875pt x 167.62625pt>
+File: Problem_2.jpg Graphic file (type jpg)
+<use Problem_2.jpg>
+Package pdftex.def Info: Problem_2.jpg  used on input line 59.
+(pdftex.def)             Requested size: 148.3037pt x 125.71936pt.
+ [1
+
+{C:/Users/John Li/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/Problem_1.png (PNG copy)>]
+<HW4_q3.png, id=12, 482.80376pt x 965.6075pt>
+File: HW4_q3.png Graphic file (type png)
+<use HW4_q3.png>
+Package pdftex.def Info: HW4_q3.png  used on input line 124.
+(pdftex.def)             Requested size: 144.84224pt x 289.68448pt.
+ [2 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/Problem_2.jpg>]
+<HW4_q3_b.jpg, id=17, 536.0025pt x 544.0325pt>
+File: HW4_q3_b.jpg Graphic file (type jpg)
+<use HW4_q3_b.jpg>
+Package pdftex.def Info: HW4_q3_b.jpg  used on input line 133.
+(pdftex.def)             Requested size: 187.60368pt x 190.41423pt.
+ [3 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q3.png (PNG copy)> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q3_b.jpg>]
+<HW4_q4.jpg, id=21, 620.3175pt x 256.96pt>
+File: HW4_q4.jpg Graphic file (type jpg)
+<use HW4_q4.jpg>
+Package pdftex.def Info: HW4_q4.jpg  used on input line 177.
+(pdftex.def)             Requested size: 217.11438pt x 89.93733pt.
+ [4 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q4.jpg>]
+<HW4_q6.png, id=26, 555.07375pt x 95.35625pt>
+File: HW4_q6.png Graphic file (type png)
+<use HW4_q6.png>
+Package pdftex.def Info: HW4_q6.png  used on input line 236.
+(pdftex.def)             Requested size: 433.62pt x 74.49251pt.
+<HW4_q6_s.png, id=28, 555.07375pt x 150.5625pt>
+File: HW4_q6_s.png Graphic file (type png)
+<use HW4_q6_s.png>
+Package pdftex.def Info: HW4_q6_s.png  used on input line 242.
+(pdftex.def)             Requested size: 433.62pt x 117.61975pt.
+ [5 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q6.png> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q6_s.png>]
+<HW4_q7.jpg, id=34, 430.60875pt x 239.89626pt>
+File: HW4_q7.jpg Graphic file (type jpg)
+<use HW4_q7.jpg>
+Package pdftex.def Info: HW4_q7.jpg  used on input line 273.
+(pdftex.def)             Requested size: 215.30383pt x 119.94783pt.
+<HW4_q8.png, id=35, 844.15375pt x 262.9825pt>
+File: HW4_q8.png Graphic file (type png)
+<use HW4_q8.png>
+Package pdftex.def Info: HW4_q8.png  used on input line 283.
+(pdftex.def)             Requested size: 433.62pt x 135.09038pt.
+ [6 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q7.jpg>]
+<HW4_q8.1.png, id=41, 844.15375pt x 262.9825pt>
+File: HW4_q8.1.png Graphic file (type png)
+<use HW4_q8.1.png>
+Package pdftex.def Info: HW4_q8.1.png  used on input line 292.
+(pdftex.def)             Requested size: 433.62pt x 135.09038pt.
+<HW4_q8.2.png, id=42, 844.15375pt x 311.1625pt>
+File: HW4_q8.2.png Graphic file (type png)
+<use HW4_q8.2.png>
+Package pdftex.def Info: HW4_q8.2.png  used on input line 301.
+(pdftex.def)             Requested size: 433.62pt x 159.83978pt.
+ [7 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q8.png> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q8.1.png> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q8.2.png>]
+<HW4_q9.1.png, id=50, 147.55125pt x 148.555pt>
+File: HW4_q9.1.png Graphic file (type png)
+<use HW4_q9.1.png>
+Package pdftex.def Info: HW4_q9.1.png  used on input line 312.
+(pdftex.def)             Requested size: 110.66315pt x 111.41597pt.
+<HW4_q9.2.png, id=51, 986.68625pt x 192.72pt>
+File: HW4_q9.2.png Graphic file (type png)
+<use HW4_q9.2.png>
+Package pdftex.def Info: HW4_q9.2.png  used on input line 316.
+(pdftex.def)             Requested size: 433.62pt x 84.69707pt.
+<HW4_q9.2.1.png, id=52, 986.68625pt x 209.78375pt>
+File: HW4_q9.2.1.png Graphic file (type png)
+<use HW4_q9.2.1.png>
+Package pdftex.def Info: HW4_q9.2.1.png  used on input line 333.
+(pdftex.def)             Requested size: 433.62pt x 92.19629pt.
+<HW4_q9.3.png, id=53, 986.68625pt x 182.6825pt>
+File: HW4_q9.3.png Graphic file (type png)
+<use HW4_q9.3.png>
+Package pdftex.def Info: HW4_q9.3.png  used on input line 339.
+(pdftex.def)             Requested size: 433.62pt x 80.28577pt.
+ [8 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q9.1.png> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q9.2.png> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q9.2.1.png>]
+<HW4_q9.3.1.png, id=60, 986.68625pt x 230.8625pt>
+File: HW4_q9.3.1.png Graphic file (type png)
+<use HW4_q9.3.1.png>
+Package pdftex.def Info: HW4_q9.3.1.png  used on input line 345.
+(pdftex.def)             Requested size: 433.62pt x 101.46004pt.
+<HW4_q9.4.png, id=61, 986.68625pt x 213.79875pt>
+File: HW4_q9.4.png Graphic file (type png)
+<use HW4_q9.4.png>
+Package pdftex.def Info: HW4_q9.4.png  used on input line 351.
+(pdftex.def)             Requested size: 433.62pt x 93.96082pt.
+<HW4_q9.4.1.png, id=62, 986.68625pt x 250.9375pt>
+File: HW4_q9.4.1.png Graphic file (type png)
+<use HW4_q9.4.1.png>
+Package pdftex.def Info: HW4_q9.4.1.png  used on input line 357.
+(pdftex.def)             Requested size: 433.62pt x 110.28264pt.
+ [9 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q9.3.png> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q9.3.1.png> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q9.4.png> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q9.4.1.png>]
+<HW4_q10.1.png, id=70, 294.09875pt x 163.61125pt>
+File: HW4_q10.1.png Graphic file (type png)
+<use HW4_q10.1.png>
+Package pdftex.def Info: HW4_q10.1.png  used on input line 370.
+(pdftex.def)             Requested size: 220.57352pt x 122.70813pt.
+<HW4_q10.2.png, id=71, 435.6275pt x 68.255pt>
+File: HW4_q10.2.png Graphic file (type png)
+<use HW4_q10.2.png>
+Package pdftex.def Info: HW4_q10.2.png  used on input line 374.
+(pdftex.def)             Requested size: 433.62pt x 67.94029pt.
+<HW4_q10.2.1.png, id=72, 435.6275pt x 118.4425pt>
+File: HW4_q10.2.1.png Graphic file (type png)
+<use HW4_q10.2.1.png>
+Package pdftex.def Info: HW4_q10.2.1.png  used on input line 382.
+(pdftex.def)             Requested size: 433.62pt x 117.8964pt.
+<HW4_q11.1.png, id=73, 563.10374pt x 186.6975pt>
+File: HW4_q11.1.png Graphic file (type png)
+<use HW4_q11.1.png>
+Package pdftex.def Info: HW4_q11.1.png  used on input line 394.
+(pdftex.def)             Requested size: 433.62pt x 143.7689pt.
+ [10 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q10.1.png> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q10.2.png> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q10.2.1.png>]
+<HW4_q11.2.png, id=80, 778.91pt x 105.39375pt>
+File: HW4_q11.2.png Graphic file (type png)
+<use HW4_q11.2.png>
+Package pdftex.def Info: HW4_q11.2.png  used on input line 398.
+(pdftex.def)             Requested size: 433.62pt x 58.67271pt.
+<HW4_q11.1.1.png, id=81, 563.10374pt x 186.6975pt>
+File: HW4_q11.1.1.png Graphic file (type png)
+<use HW4_q11.1.1.png>
+Package pdftex.def Info: HW4_q11.1.1.png  used on input line 404.
+(pdftex.def)             Requested size: 433.62pt x 143.7689pt.
+<HW4_q11.2.1.png, id=82, 778.91pt x 501.875pt>
+File: HW4_q11.2.1.png Graphic file (type png)
+<use HW4_q11.2.1.png>
+Package pdftex.def Info: HW4_q11.2.1.png  used on input line 416.
+(pdftex.def)             Requested size: 433.62pt x 279.39395pt.
+ [11 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q11.1.png> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q11.2.png> <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q11.1.1.png>] [12 <d:/School/_latex-hw/2020-2021/Spring/CSE120/HW4/HW4_q11.2.1.png>] (d:/School\_latex-hw\2020-2021\Spring\CSE120\HW4\CSE120_HW4.aux) ) 
+Here is how much of TeX's memory you used:
+ 3878 strings out of 479618
+ 55195 string characters out of 2864038
+ 344717 words of memory out of 3000000
+ 20987 multiletter control sequences out of 15000+200000
+ 410986 words of font info for 57 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,12n,74p,274b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on d:/School\_latex-hw\2020-2021\Spring\CSE120\HW4\CSE120_HW4.pdf (12 pages, 655907 bytes).
+PDF statistics:
+ 122 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+
