@@ -1,0 +1,275 @@
+\documentclass{article}
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage[makeroom]{cancel}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{John J Li}
+\rhead{MAT300 Spring 2021 Homework 6}
+\rfoot{\thepage}
+\lfoot{April 2021}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\setlength{\parskip}{1em}
+\setlength\parindent{0px}
+\title{MAT300 Spring 2021 Homework 6}
+\date{\today}
+\author{John J Li}
+
+\begin{document}
+    \maketitle
+    \thispagestyle{empty}
+    \noindent\rule{\textwidth}{0.8pt}
+
+    %###################################################################################
+
+    \section*{Problem 1}
+
+    Let $S = \{(1,2),(2,1),(3,3),(1,3),(3,2)\}$ and $R=\{(1,2),(2,2),(3,1),(1,3),(3,3)\}$
+    be relations on $\{1,2,3\}$. Find:
+
+    (a) $S\circ R^{-1}$
+
+    \begin{enumerate}[label={\bfseries Solution:}, leftmargin=*]
+        \item $\{(2,2),(2,3),(2,1),(1,3),(1,2),(3,2),(3,3),(3,3),(3,2)\}$
+    \end{enumerate}
+
+    (b) $R\circ (R\circ R)$
+
+    \begin{enumerate}[label={\bfseries Solution:}, leftmargin=*]
+        \item $\{(1,2),(2,2),(3,2),(3,1),(3,3),(1,2),(1,3),(1,1),(1,3),(3,2),(3,3)\}$
+    \end{enumerate}
+
+    %###################################################################################
+
+    \section*{Problem 2}
+
+    Let $R,S$ be relations on $A$. Show:
+
+    (a) If $R\subseteq S$, then $R^{-1}\subseteq S^{-1}$
+
+    \begin{proof}
+        Let $R\subseteq S$ and suppose there is an arbitrary ordered pair $(x,y)\in R$ and $x,y\in A$.
+        By definition of the subset, this means that there exists a $(x,y)\in S$ such that
+        $(x,y)\in R = (x,y)\in S$.
+        Inverting the ordered pairs would give $(y,x)\in R^{-1}$ and $(y,x)\in S^{-1}$ which
+        shows $R^{-1}\subseteq S^{-1}$.
+    \end{proof}
+
+    (b) $(R\cup S)^{-1} = R^{-1}\cup S^{-1}$
+
+    \begin{proof}
+        1) Suppose an arbitrary ordered pair $(x,y)\in (R\cup S)^{-1}$ and $x,y\in A$. Then 
+        $(y,x)\in R\cup S$ and so $(y,x)\in R \lor (y,x)\in S$. The inverse would be 
+        $(x,y)\in R^{-1} \lor (x,y)\in S^{-1}$ thus $(x,y)\in R^{-1}\cup S^{-1}$.
+
+        2) Suppose an arbitrary order pair $(x,y)\in R^{-1}\cup S^{-1}$ and so 
+        $(x,y)\in R^{-1}\lor (x,y)\in S^{-1}$ which can be rewritten as $(y,x)\in R \lor (y,x)\in S$.
+        So that $(y,x)\in (R\cup S)$; inverting the ordered pair shows $(x,y)\in (R\cup S)^{-1}$.
+    \end{proof}
+
+    %###################################################################################
+
+    \section*{Problem 3}
+
+    Let $R$ be a relation on $A$. Show that if $R$ is transitive and symmetric,
+    then so is $R^{-1}$:
+
+    \begin{proof}
+        Suppose $R$ is transitive and symmetric, then 
+        $\forall_{x\in A}\forall_{y\in A}((x,y)\in R \rightarrow (y,x)\in R)$ and
+        $\forall_{x\in A}\forall_{y\in A}\forall_{\mathbb{Z}\in A}(((x,y)\in R \land (y,z)\in R) \rightarrow (x,z)\in R)$.
+
+        Then the inverse would be 
+        $\forall_{x\in A}\forall_{y\in A}((y,x)\in R^{-1} \rightarrow (x,y)\in R^{-1})$ and
+        $\forall_{x\in A}\forall_{y\in A}\forall_{\mathbb{Z}\in A}(((y,x)\in R^{-1} \land (z, y)\in R) \rightarrow (z,x)\in R^{-1})$.
+        So it is seen that $R^{-1}$ is also transitive and symmetric.
+    \end{proof}
+
+    %###################################################################################
+
+    \section*{Problem 4}
+
+    Let $R$ be the following relation on $\mathbb{Z}$, $aRb$ if $a-b\leq 10$. Check if $R$ is
+    reflexive, symmetric, antisymmetric, and transitive. 
+
+    (a) R is reflexive.
+    
+    \quad Let $a\in \mathbb{Z}$. Then $a-a = 0\leq 10$. So $aRa$.
+
+    (b) R is not symmetric. 
+
+    \quad Let $a,b\in \mathbb{Z}$. And suppose $aRb$ then there exists $b - a > 10$. 
+    Let $(1,12) = (a,b)$ then $1-12 = -11 \leq 10$ but $12 - 1 = 11 \nleq 10$.
+
+    (c) R is not antisymmetric.
+    
+    \quad Let $a,b\in \mathbb{Z}$ and suppose $(aRb\; \land\; bRa)$ and consider $(a,b)=(1,2)$ then
+    indeed $1-2 \leq 10\; \land\; 2-1 \leq 10$ but $1\neq 2$.
+
+    (d) R is not transitive.
+
+    \quad Let $a,b,c\in \mathbb{Z}$ and suppose $(aRb\;\land\; bRc)$. Consider $a = 2, b = 1, c = -9$,
+    then indeed $2-1\leq 10\;\land\; 1-(-9)\leq 10$ but $2-(-9) = 11 \nleq 10$.
+
+
+    %###################################################################################
+
+    \section*{Problem 5}
+
+    Let $R$ be a relation on $\mathbb{Z}\times \mathbb{Z}$ defined as $(a,b)R(c,d)$ when $2|(a^2+c)$ and
+    $3|(b-d)$. Check if $R$ is reflexive, symmetric, antisymmetric, and transitive.
+
+    (a) R is reflexive
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        Let $(a,b)\in \mathbb{Z}\times \mathbb{Z}$. Then $b-b = 0\cdot 3; 3|(b-b)$. And proving $2|(a^2+a)$:
+
+        Case 1: $a$ is even 
+
+        \quad Let $a = 2j$ where $j\in \mathbb{Z}$. Then $a^2+a = 4j^2+2j = 2(2j^2+j); 2|(a^2+a)$.
+
+        Case 2: $a$ is odd 
+
+        \quad Let $a = 2j +1$ where $j\in \mathbb{Z}$. Then 
+        \begin{align*}
+            a^2+a &= (2j+1)^2+2j+1 \\
+            & = (4j^2+4j+1) + 2j + 1 \\
+            & = 4j^2+6j+2 \\
+            & = 2(2j^2+3j+1)
+        \end{align*}
+
+        So $2|(a^2+a)$ and $3|(b-b)$ as required.
+    \end{enumerate}
+
+    (b) R is symmetric 
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        Let $(a,b),(c,d)\in \mathbb{Z}\times \mathbb{Z}$. And suppose $a^2+c=2k$ and $b-d=3j$ where $k,j\in \mathbb{Z}$.
+        Then $d-b=3(-j)$ and in proving $2|(c^2+a)$, let $a=\sqrt{2k-c}$:
+
+        Case 1: $c$ is even
+
+        \quad Let $c=2i$ where $i\in \mathbb{Z}$. Then:
+        \begin{align*}
+            c^2+a & = c^2+\sqrt{2k-c} \\
+            & = c^4 + 2k -c \\
+            & = 16i^4 + 2k - 2i \\
+            & = 2(8i^4+k-i)
+        \end{align*}
+
+        Case 2: $c$ is odd
+
+        \quad Let $c=2i+1$ where $i\in \mathbb{Z}$. Then:
+        \begin{align*}
+            c^2+a & = c^2+\sqrt{2k-c} \\
+            & = c^4 + 2k -c \\
+            & = 16i^4+32i^3+24i^2+8i+1+2k-2i-1 \\
+            & = 16i^4+32i^3+24i^2+6i+2k \\
+            & = 2(8i^4+16i^3+12i^2+3i+k)
+        \end{align*}
+
+        So $3|(d-b)$ and $2|(c^2+a)$ as required.
+    \end{enumerate}
+
+    (c) R is not antisymmetric 
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        Let $(a,b),(c,d)\in \mathbb{Z}\times \mathbb{Z}$. And consider $(a,b)=(1,5)$ and $(c,d)=(3,2)$, then 
+        it is indeed true that $(1,5)R(1,2)$ and $(1,2)R(1,5)$ but $(3,2)\neq (1,5)$.
+    \end{enumerate}
+
+    (d) R is transitive
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        Let $(a,b),(c,d),(e,f)\in \mathbb{Z}\times \mathbb{Z}$. And suppose $(a,b)R(c,d)$ and $(c,d)R(e,f)$,
+        then $2|(a^2+c)$ and $3|(b-d)$ and $2|(c^2+e)$ and $3|(d-f)$.
+        \item
+        Then $b-d=3j$ and $d-f=3k$ for some $j,k\in \mathbb{Z}$. Thus $b-d+d-f=3j+3k$, then
+        $b-f=3(j+k)$, so $3|(b-f)$ as required.
+        \item
+        Then $a^2+c=2g$ and $c^2+e=2i$ for some $g,i\in \mathbb{Z}$. 
+        Then $c=\sqrt{2i-e}$ and so $a^2+\sqrt{2i-e}=2g$, which is the same as 
+        $a^4+2i-e=4g^2$.
+        For $2|(a^2+c)$, both 
+        $a$ and $c$ have to be both even or both odd, the same is true for $2|(c^2+e)$. 
+        And since $a^4$ will be odd when $a$ is odd and even when $a$ is even, 
+        $a^4+2i-e=4g^2$ can be written as $a^2-e=2(2g^2-i)$ or $2|a^2-e$ as required.
+    \end{enumerate}
+
+    %###################################################################################
+
+    \section*{Problem 6}
+
+    Let $R$ be a relation on $\mathbb{Z}^+\times \mathbb{Z}^+$ defined as follows $(x,y)R(z,w)$ if $x|z$
+    and $y-w\geq 0$.
+
+    (a) Prove that $R$ is a partial order but not a total order.
+
+    \begin{proof}
+        $R$ is reflexive.
+        \begin{enumerate}[label=\quad\quad, leftmargin=*]
+            \item 
+            Let $(x,y),(z,w)\in\mathbb{Z}^+\times\mathbb{Z}^+$. Then $x = 1\cdot x$ so $x|x$ and $y-y = 0\geq 0$.
+            So $(x,y)R(x,y)$ as required.
+        \end{enumerate}
+        $R$ is transitive.
+        \begin{enumerate}[label=\quad\quad, leftmargin=*]
+            \item 
+            Let $(x,y),(z,w),(a,b)\in\mathbb{Z}^+\times\mathbb{Z}^+$. And suppose $(x,y)R(z,w)$
+            and $(z,w)R(a,b)$. So that 
+            \begin{align*}
+                &x|z \\
+                &y-w\geq 0\\
+                &z|a\\
+                &w-b\geq 0
+            \end{align*}
+            It is seen that $y-w+w-b\geq 0$. Which can be written as $y-b\geq 0$ which satisfies one
+            half of the relation.
+            \item 
+            Consider $x|z = x\cdot k = z$ and $z|a = z\cdot j = a$ for some $k,j\in\mathbb{Z}^+$.
+            Thus $a=x\cdot k\cdot j$ and so $x|a$.
+            \item
+            So $(x,y)R(a,b)$ as required.
+        \end{enumerate}
+        $R$ is antisymmetric 
+        \begin{enumerate}[label=\quad\quad, leftmargin=*]
+            \item 
+            Let $(x,y),(z,w)\in\mathbb{Z}^+\times\mathbb{Z}^+$ and suppose $(x,y)R(z,w)$
+            and $(z,w)R(x,y)$. Thus $x\cdot k = z$ and $z\cdot j=x$ for some $k,j\in\mathbb{Z}^+$
+            and $y-w\geq 0$ and $w-y\geq 0$.
+            \item
+            Then $z=j\cdot k\cdot z$ so $z|z$ and $x=j\cdot k\cdot x$ so $x|x$ so $x=z$. And 
+            $y-w+w-y\geq 0$ and $w-y+y-w\geq 0$ so $y=w$.
+            \item
+            Thus $(x,y)=(z,w)$ as required.
+        \end{enumerate}
+        There exists an $x$ and $y$ such that $(x,y)\cancel{R}(z,w)$ and $(z,w)\cancel{R}(x,y)$
+        \begin{enumerate}[label=\quad\quad, leftmargin=*]
+            \item 
+            Consider $(x,y)=(4,2)$ and $(z,w)=(3,5)$ then it can be seen that $4\cdot j\neq 3$ for some
+            $j\in\mathbb{Z}^+$ and $2-5\ngeq 0$. And $3\cdot k\neq 4$ for some $k\in\mathbb{Z}^+$.
+        \end{enumerate}
+    \end{proof}
+
+    %###################################################################################
+
+    \section*{Problem 7}
+
+    Give an example of a partially ordered set which contains exactly one minimal element 
+    $x$ such that $x$ is not the smallest element.
+
+    Let set $G=\{(x,y)\;|\; (x=2 \land y=1) \lor (x=1 \land y\in\mathbb{N})\}$ and let relation 
+    $R=\{((x_1,y_1),(x_2,y_2))\;|\; (x_1>x_2\land y_1=y_2=1)\lor (x_1=x_2=1\land y_1>y_2)\rightarrow (x_1,y_1) < (x_2,y_2)\}$.
+\end{document}

@@ -1,0 +1,255 @@
+\documentclass{article}
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage[makeroom]{cancel} 
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{John J Li}
+\rhead{MAT300 Spring 2021 Homework 7}
+\rfoot{\thepage}
+\lfoot{April 2021}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\setlength{\parskip}{1em}
+\setlength\parindent{0px}
+\title{MAT300 Spring 2021 Homework 7}
+\date{\today}
+\author{John J Li}
+
+\begin{document}
+    \maketitle
+    \thispagestyle{empty}
+
+    %################################################################################### 
+
+    \section*{Problem 1}
+    
+    Check if the following relations $R$ on $\mathbb{Z}$ are functions from $\mathbb{Z}$ to $\mathbb{Z}$.
+
+    (a) $aRb$ if $a\leq b$
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        This relation is not a function. Suppose $a\in\mathbb{Z}$ and $b\in\mathbb{Z}$ and 
+        $a\leq b$ then $a\leq b-1$. Since $a\leq b$ and $a\leq b-1$, this is not a function.
+    \end{enumerate}
+
+    (b) $aRb$ if $a^2 = b^2$
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        This relation is not a function. Suppose $a=1$ then $b=1,-1$. There is more than 
+        one $b\in\mathbb{Z}$ such that $aRb$.
+    \end{enumerate}
+
+    (c) $aRb$ if $\{a\} \subseteq \{b\}$
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        This relation is a function. Suppose $\{a\} \subseteq \{b\}$, then $a=b$ since $a,b
+        \in\mathbb{Z}$.
+    \end{enumerate}
+
+
+    %###################################################################################
+
+    \section*{Problem 2}
+
+    Let $A,B$ be two disjoint sets and let $f : A \rightarrow A \cup B,\; g : B \rightarrow A \cup B$ be
+    functions. Show that $f \cup g$ is a function from $A \cup B$ to $A \cup B$.
+
+    \begin{proof}
+        Suppose $A,B$ are disjoint sets and let $f : A \rightarrow A \cup B,\; g : B \rightarrow A \cup B$ be
+        functions. Consider $a\in A$, then there exists $x\in A\cup B$ such that $(a,x)\in f$.
+        Consider $b\in B$, then there exists $y\in A\cup B$ such that $(b,y)\in g$.
+        Consider $f\cup g$, then $(a,x),(b,y)\in f\cup g$ and $a\neq b$ since $A,B$ are 
+        disjoint. And $a,b \in A\cup B$ and $x,y\in A\cup B$. Thus $f \cup g$ is a function from $A \cup B$ to $A \cup B$.
+    \end{proof}
+
+
+    %###################################################################################
+
+    \section*{Problem 3}
+
+    Which of the following functions are injective and which are surjective (justify).
+
+    (a) $f:\mathbb{N}\rightarrow\mathbb{N},\; f(n)=\lceil\frac{n+2}{3}\rceil$
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        This function is not injective. Consider $n=2$ then $f(2)=2$, now consider $n=3$ then 
+        $f(3) = 2$ so $f(3) = f(2)$ so this function is not injective.
+        \item
+        This function is not surjective since $\forall_{n\in\mathbb{N}}(f(n) > 0)$.
+    \end{enumerate}
+
+    (b) $f:\mathbb{Z}\rightarrow\mathbb{N},\; f(n)=n^2$
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        This function is not injective. Consider $n=-1$ then $f(-1)=1$, now consider $n=1$ then 
+        $f(1) = 1$ so $f(-1)=f(1)$, thus this function is not injective.
+        \item
+        This function is not surjective since $\forall_{n\in\mathbb{Z}}(f(n) \neq 2)$.
+    \end{enumerate}
+    
+    (c) $f:\mathbb{N}\rightarrow\mathbb{N},\; f(n)=|\lfloor\frac{n-1}{5}\rfloor-1|$
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        This function is not injective. Suppose $f(n)=|\lfloor\frac{n-1}{5}\rfloor-1|$ 
+        and consider $n=0$, $f(0) = 1$. Now consider $n=1$, $f(1)=1$; and $1,0\in\mathbb{N}$. Since $f(0)=f(1)$
+        this function is not injective.
+        \item
+        This function is surjective. Consider $b\in\mathbb{N}$ and $a=\pm 5b+6$.
+        \item
+        Case 1: $a=5b+6$.
+        \begin{align*}
+            f(a)&=|\lfloor\frac{a-1}{5}\rfloor-1| \\
+            &=|\lfloor\frac{5b+6-1}{5}\rfloor-1| \\
+            &=|\lfloor b+1\rfloor-1| \\
+            &=|b+1-1| & \text{(Since $b\in\mathbb{N})$}\\
+            &=b 
+        \end{align*}
+        Case 2: $a= -5b+6$
+        \begin{align*}
+            f(a)&=|\lfloor\frac{a-1}{5}\rfloor-1| \\
+            &=|\lfloor\frac{-5b+6-1}{5}\rfloor-1| \\
+            &=|\lfloor -b+1\rfloor-1| \\
+            &=|-b+1-1| & \text{(Since $b\in\mathbb{N})$}\\
+            &=b 
+        \end{align*}
+    \end{enumerate}
+
+
+    %###################################################################################
+
+    \section*{Problem 4}
+
+    Give an example of a function from $\mathbb{Z}$ to $\mathbb{Z}$ which is injective 
+    but not surjective and an example of a function which is surjective but not injective.
+
+    Injective but not surjective.
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item $f(n) = 2n$
+    \end{enumerate}
+
+    Surjective but not injective.
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item $f(n) = \lfloor \frac{n}{2} \rfloor$
+    \end{enumerate}
+    %###################################################################################
+
+    \section*{Problem 5}
+
+    Find a bijective function from $\mathbb{Z}$ to the set $\mathbb{Z}\setminus\{-1,0,1\}$
+    (Show that your example is indeed a bijection).
+
+    \[
+        f(n) = 
+        \begin{cases}
+            x + 2, & \text{if } n\geq 0 \\
+            -x - 1, & \text{if } n < 0
+        \end{cases}
+    \]
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        This function is injective.
+        \begin{enumerate}[label=\quad\quad, leftmargin=*]
+            \item
+            Case 1: $n\geq 0$. Let $x,y\in\mathbb{N}$ and suppose $f(x)=f(y)$. Then 
+            $x+2=y+2$ so $x=y$.
+            Case 2: $n<0$. Let $x,y\in\mathbb{N}$ and suppose $f(x)=f(y)$. Then 
+            $-x-1 = -y-1$ so $x=y$.
+        \end{enumerate}
+        \item
+        This function is surjective.
+        \begin{enumerate}[label=\quad\quad, leftmargin=*]
+            \item
+            Case 1: $n\geq 0$. Let $y\in\mathbb{N}$ and suppose $x=y-2$. Then 
+            $y-2+2=y$.
+            Case 2: $n<0$. Let $y\in\mathbb{N}$ and suppose $x=-y-1$. Then 
+            $-(-y-1)-1=y+1-1=y$.
+        \end{enumerate}
+    \end{enumerate}
+
+
+    %###################################################################################
+
+    \section*{Problem 6}
+
+    Which of the following functions are injective and which are surjective (justify).
+
+    (a) $f:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z},\; f((a,b))=a^2+b$
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        This function is not injective. Consider $a=1,b=0$ then $f((1,0))=1$, now consider 
+        $a=2,b=-3$ then $f((2,-3))=1$ and $(1,0),(2,-3)\in\mathbb{Z}\times\mathbb{Z}$ 
+        so $f((2,-3))=f((1,0))$.
+        \item
+        This function is surjective. Let $y\in\mathbb{Z}$ consider $x=(0,y)$. 
+        Then $f(x)=f((0,y)) = 0+y=y$ and $(0,y)\in\mathbb{N}\times\mathbb{N}$.
+    \end{enumerate}
+
+    (b) $f:\mathbb{Z}\rightarrow\mathbb{Z}\times\mathbb{Z},\; f(a) = (\lceil\frac{a}{2}\rceil,\; a)$
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        This function is injective. Suppose $f(x)=f(y)$ then $(\lceil\frac{x}{2}\rceil, x) = (\lceil\frac{x}{2}\rceil, y)$
+        Then $\lceil\frac{x}{2}\rceil = \lceil\frac{y}{2}\rceil$, so $x=y$.
+        And looking at the second element of the pair, $x=y$.
+        \item
+        This function is surjective. Let $y\in\mathbb{Z}$ and consider $x=y$ where $x\in\mathbb{Z}$.
+        Then $f(x)=f(2y)=(\lceil\frac{y}{2}\rceil,y)$. 
+    \end{enumerate}
+
+    (c) $f:\mathbb{Z}\times\mathbb{Z}\rightarrow\mathbb{Z}\times\mathbb{Z},\; f((a,b))=(a+b,2a-b)$
+
+    \begin{enumerate}[label=\quad\quad, leftmargin=*]
+        \item 
+        This function is injective. Suppose $f(x,y)=f(c,d)$ then $(x+y,2x-y)=(c+d, 2c-d)$. 
+        Then $x+y = c+d$ and $2x-y=2c-d$. Adding these two functions gives $3x-y+y=3c-d+d = 
+        3x=3c$ so $x=c$. Since $x=c$, $c+y=c+d=y=c-c+d$ so $y=d$. Thus $(x,y)=(c,d)$.
+        \item
+        This function is not surjective. For $x,y\in\mathbb{Z}$ and suppose $x+y=0$ then 
+        $2x-y = 2(-y)-y = -3y \neq 1$. So $(x+y, 2x-y)\neq(0,1)$.
+    \end{enumerate}
+
+
+    %###################################################################################
+
+    \section*{Problem 7}
+
+    Let $f,g$ be functions from $A$ to $A$. Show that:
+
+    (a) If both $f,g$ are injective then so is $f\circ g$.
+
+    \begin{proof}
+        Suppose $f,g$ are injective. Let $a_1$ and $a_2$ be arbitrary elements of $A$
+        and suppose that $(f\circ g)(a_1)=(f\circ g)(a_2)$. This means $f(g(a_1))=f(g(a_2))$.
+        Since $f$ is injective, $g(a_1)=g(a_2)$ and similarly since $g$ is injective, 
+        $a_1=a_2$. Thus $f\circ g$ is injective.
+    \end{proof}
+
+    (b) If both $f,g$ are surjective then so is $f\circ g$.
+
+    \begin{proof}
+        Suppose $f,g$ are surjective and let $a$ be an arbitrary element of $A$. Since 
+        $f$ is surjective, there is some $b\in A$ such that $f(b)=a$. Similarly, since 
+        $g$ is surjective, there is some $c\in A$ such that $f(c)=b$. Then $(f\circ g)(c) =
+        f(g(c)) = f(b) = a$. Thus, $f\circ g$ is surjective.
+    \end{proof}
+
+\end{document}
