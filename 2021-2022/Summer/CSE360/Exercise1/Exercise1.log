@@ -1,0 +1,203 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.19)  11 JUN 2021 14:49
+entering extended mode
+**d:/School/_latex-hw/2021-2022/Summer/CSE360/Exercise1/Exercise1.tex
+(d:/School/_latex-hw/2021-2022/Summer/CSE360/Exercise1/Exercise1.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03> ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo"
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg")) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
+File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count188
+\l__pdf_internal_box=\box47
+) (d:/School\_latex-hw\2021-2022\Summer\CSE360\Exercise1\Exercise1.aux)
+\openout1 = `Exercise1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
+* v-part:(T,H,B)=(106.75473pt, 578.15999pt, 160.13213pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=433.62pt
+* \textheight=578.15999pt
+* \oddsidemargin=9.67395pt
+* \evensidemargin=9.67395pt
+* \topmargin=-2.51526pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count189
+\scratchdimen=\dimen149
+\scratchbox=\box48
+\nofMPsegments=\count190
+\nofMParguments=\count191
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count192
+\MPscratchDim=\dimen150
+\MPnumerator=\count193
+\makeMPintoPDFobject=\count194
+\everyMPtoPDFconversion=\toks20
+) ("C:\Users\John Li\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 22.
+<Exercise 01_ Practice Problems.jpg, id=1, 441.14813pt x 359.84438pt>
+File: Exercise 01_ Practice Problems.jpg Graphic file (type jpg)
+<use Exercise 01_ Practice Problems.jpg>
+Package pdftex.def Info: Exercise 01_ Practice Problems.jpg  used on input line 36.
+(pdftex.def)             Requested size: 330.86028pt x 269.88261pt.
+<Problem1.png, id=2, 612.2875pt x 475.7775pt>
+File: Problem1.png Graphic file (type png)
+<use Problem1.png>
+Package pdftex.def Info: Problem1.png  used on input line 42.
+(pdftex.def)             Requested size: 336.75917pt x 261.67842pt.
+ [1
+
+{C:/Users/John Li/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <d:/School/_latex-hw/2021-2022/Summer/CSE360/Exercise1/Exercise 01_ Practice Problems.jpg>]
+<Problem2_Example.png, id=12, 601.24625pt x 470.75874pt>
+File: Problem2_Example.png Graphic file (type png)
+<use Problem2_Example.png>
+Package pdftex.def Info: Problem2_Example.png  used on input line 54.
+(pdftex.def)             Requested size: 330.68645pt x 258.9181pt.
+ [2 <d:/School/_latex-hw/2021-2022/Summer/CSE360/Exercise1/Problem1.png>]
+<Problem2.png, id=17, 601.24625pt x 470.75874pt>
+File: Problem2.png Graphic file (type png)
+<use Problem2.png>
+Package pdftex.def Info: Problem2.png  used on input line 60.
+(pdftex.def)             Requested size: 330.68645pt x 258.9181pt.
+ [3 <d:/School/_latex-hw/2021-2022/Summer/CSE360/Exercise1/Problem2_Example.png> <d:/School/_latex-hw/2021-2022/Summer/CSE360/Exercise1/Problem2.png>]
+<Problem3.png, id=23, 779.91376pt x 543.02875pt>
+File: Problem3.png Graphic file (type png)
+<use Problem3.png>
+Package pdftex.def Info: Problem3.png  used on input line 78.
+(pdftex.def)             Requested size: 428.9539pt x 298.66672pt.
+<Problem4.png, id=24, 762.85pt x 506.89375pt>
+File: Problem4.png Graphic file (type png)
+<use Problem4.png>
+Package pdftex.def Info: Problem4.png  used on input line 95.
+(pdftex.def)             Requested size: 419.5688pt x 278.79242pt.
+ [4 <d:/School/_latex-hw/2021-2022/Summer/CSE360/Exercise1/Problem3.png>] [5 <d:/School/_latex-hw/2021-2022/Summer/CSE360/Exercise1/Problem4.png>] (d:/School\_latex-hw\2021-2022\Summer\CSE360\Exercise1\Exercise1.aux) ) 
+Here is how much of TeX's memory you used:
+ 1941 strings out of 479618
+ 30013 string characters out of 2864038
+ 309002 words of memory out of 3000000
+ 19125 multiletter control sequences out of 15000+200000
+ 407377 words of font info for 40 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,11n,74p,240b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/John Li/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on d:/School\_latex-hw\2021-2022\Summer\CSE360\Exercise1\Exercise1.pdf (5 pages, 188106 bytes).
+PDF statistics:
+ 46 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

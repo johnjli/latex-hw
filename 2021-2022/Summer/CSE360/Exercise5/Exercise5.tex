@@ -1,0 +1,186 @@
+\documentclass{article}
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{textcomp}
+\usepackage{gensymb}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{John J Li}
+\rhead{CSE360 Summer 2021 Assignment 5}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setlength{\parskip}{1em}
+\setlength\parindent{0px}
+\title{CSE360 Summer 2021 Assignment 5}
+\date{\today}
+\author{John J Li}
+
+\begin{document}
+    \maketitle
+    \thispagestyle{empty}
+    \noindent\rule{\textwidth}{0.8pt}
+
+    %################################################################################### 
+    \section*{Problem 1}
+
+    A group of middle school students want to create a program to help a robot navigate
+    through a maze. There are sensors on the front, left, and right side of the robot. These
+    sensors send two possible signals, “Y” - there is a wall in this direction and “N” - there is
+    no wall in this direction. The sensors send these signals every three seconds and
+    depending on the combination of signals, the robot will perform a different action.
+    
+    The students decided to make the program do the following:
+    \begin{itemize}
+        \item 
+        If there is no wall to the front, left, and right of the robot
+        -- Move forward
+        \item
+        If there is no wall in front and left of the robot and there is a wall to the right of the
+        robot
+        -- Move forward
+        \item
+        If there is no wall in front and right of the robot and there is a wall to the left of the
+        robot
+        -- Move forward
+        \item
+        If there is no wall in front of the robot and there is a wall to the left and right of the
+        robot
+        -- Move forward
+        \item
+        If there is a wall in front of the robot and there is no wall to the left and right of the
+        robot
+        -- Turn left and move forward
+        \item
+        If there is a wall in front and to the right of the robot and there is no wall to the left
+        of the robot
+        -- Turn left and move forward
+        \item
+        If there is a wall in front and to the left of the robot and there is no wall to the right
+        of the robot
+        -- Turn right and move forward
+        \item
+        If there is wall in front, to the left, and to the right of the robot
+        -- Turn around 180° and move forward
+    \end{itemize}
+
+    The students need help making the decision table. Fill in the missing “???” conditions to
+    make the decision table match the list of decisions described above.
+
+    \begin{center}
+        \begin{tabular} {|l|c|c|c|c|c|c|c|c|}
+            \hline
+            Conditions & $R_1$ & $R_2$ & $R_3$ & $R_4$ & $R_5$ & $R_6$ & $R_7$ & $R_8$ \\
+            \hline
+            There is a wall in front of the robot & N & N & N & N & Y & Y & Y & Y \\
+            There is a wall to the left of the robot & N & N & Y & Y & N & N & Y & Y \\
+            There is a wall to the right of the robot & N & Y & N & Y & N & Y & N & Y \\
+            \hline
+            Actions & & & & & & & & \\
+            \hline
+            Move forward & X & X & X & X & & & & \\
+            Turn left and move forward & & & & & X & X & & \\
+            Turn right and move forward & & & & & & & X & \\
+            Turn around $180\degree$ and move forward & & & & & & & & X \\
+            \hline
+        \end{tabular}
+    \end{center}
+
+    %################################################################################### 
+    \section*{Problem 2}
+
+    There are eight rules from problem 1. Some of the rules are redundant (see the second
+    video at the 7:18 minute mark) since they result in the same action. Use the table below
+    to reduce the decision table from problem 1. Use a “ - “ to represent the conditions that
+    do not matter in the rule.
+    
+    \begin{center}
+        \begin{tabular} {|l|c|c|c|c|}
+            \hline
+            Conditions & $R_1$ & $R_2$ & $R_3$ & $R_4$ \\
+            \hline
+            There is a wall in front of the robot & N & Y & Y & Y \\
+            There is a wall to the left of the robot & - & N & Y & Y \\
+            There is a wall to the right of the robot & - & - & N & Y \\
+            \hline
+            Actions & & & & \\
+            \hline
+            Move forward & X & & & \\
+            Turn left and move forward & & X & & \\
+            Turn right and move forward & & & X & \\
+            Turn around $180\degree$ and move forward & & & & X \\
+            \hline
+        \end{tabular}
+    \end{center}
+
+    %################################################################################### 
+    \section*{Problem 3}
+
+    A client is starting up a bike rental service and has hired you to create the system to
+    charge customers. After talking with the client, you have determined the following:
+    \begin{itemize}
+        \item 
+        If a customer rents the bike for less than 2 hours, they should be charged \$7.
+        \item
+        If a customer rents the bike for more than 2 hours, they should be charged \$25.
+        \item
+        If a customer rents a bike helmet, they should be charged \$5.
+        \item
+        If a customer rents a bike lock, they should be charged \$5.
+        \item
+        If a damaged bike is returned, the customer should be charged \$20.
+    \end{itemize}
+    Items (a) and (b) are considered the base price of the rental. All the other items add an
+    extra fee onto the base price.
+
+    Create a decision table to model the conditions and actions described above. Note: the
+    table below is a placeholder, you can add/remove rows and columns as needed.
+    
+    \begin{center}
+        \begin{tabular} {|l|c|c|c|c|c|c|c|c|}
+            \hline
+            Conditions & $R_1$ & $R_2$ & $R_3$ & $R_4$ & $R_5$ & $R_6$ & $R_7$ & $R_8$ \\
+            \hline
+            Customer rents the bike for more than 2 hours & N & N & N & N & N & N & N & N \\
+            Customer returns damaged bike                 & N & N & N & N & Y & Y & Y & Y \\
+            Customer rents a bike helmet                  & N & N & Y & Y & N & N & Y & Y \\
+            Customer rents a bike lock                    & N & Y & N & Y & N & Y & N & Y \\
+            \hline
+            Actions & & & & & & & & \\
+            \hline
+            Customer is charged \$5  & &X&X& & &X&X& \\
+            Customer is charged \$7  &X&X&X&X&X&X&X&X\\
+            Customer is charged \$10 & & & &X& & & &X\\
+            Customer is charged \$20 & & & & &X&X&X&X\\
+            Customer is charged \$25 & & & & & & & & \\
+            \hline
+        \end{tabular}
+    \end{center}
+    \begin{center}
+        \begin{tabular} {|l|c|c|c|c|c|c|c|c|}
+            \hline
+            Conditions & $R_9$ & $R_{10}$ & $R_{11}$ & $R_{12}$ & $R_{13}$ & $R_{14}$ & $R_{15}$ & $R_{16}$ \\
+            \hline
+            Customer rents the bike for more than 2 hours & Y & Y & Y & Y & Y & Y & Y & Y \\
+            Customer returns damaged bike                 & N & N & N & N & Y & Y & Y & Y \\
+            Customer rents a bike helmet                  & N & N & Y & Y & N & N & Y & Y \\
+            Customer rents a bike lock                    & N & Y & N & Y & N & Y & N & Y \\
+            \hline
+            Actions & & & & & & & & \\
+            \hline
+            Customer is charged \$5  & &X&X& & &X&X& \\
+            Customer is charged \$7  & & & & & & & & \\
+            Customer is charged \$10 & & & &X& & & &X\\
+            Customer is charged \$20 & & & & &X&X&X&X\\
+            Customer is charged \$25 &X&X&X&X&X&X&X&X\\
+            \hline
+        \end{tabular}
+    \end{center}
+
+\end{document}
